@@ -60,7 +60,7 @@ def hangman():
             break
     if not win:
         print('\n'.join(stages[0: wrong]))
-        print('Вы проиграли! Было загадано слово: {}.'.format(random_words))
+        print(f'Вы проиграли! Было загадано слово: {random_words}.')
 
 
 if __name__ == '__main__':
